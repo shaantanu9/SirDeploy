@@ -7,19 +7,19 @@
 [Chat](https://gitter.im/shaantanu9)
 
 ### Bored Creating Server and Deploying it on Heroku 
-The [DeployServer](https://github.com/shaantanu9/DeployHerokuServer) is a npm Package that help you do all this deployement in single click.
+The [sirdeploy](https://github.com/shaantanu9/DeployHerokuServer) is a npm Package that help you do all this deployement in single click.
 
-## $ npm i --location=global deployserver 
+## $ npm i --location=global sirdeploy 
 #### It is CLI Base so need to install Globally
 
 #
 ### How to Use in Terminal:
 ```shell
 Steps to Follow:
-1. Install DeployServer Globally: $ npm i --location=global deployserver
+1. Install sirdeploy Globally: $ npm i --location=global sirdeploy
 2. Create a Folder with Any name: $ mkdir newProject.
 3. create db.json file with respected data.
-4. deployserver heroku-fakeserver newProject
+4. sirdeploy heroku-fakeserver newProject
 
 ```
 
@@ -32,13 +32,13 @@ Steps to Follow:
 
 Using npm:
 ```shell
-$ npm i --location=global deployserver
+$ npm i --location=global sirdeploy
 // it is CLI Base so need to install Globally
 
 $ mkdir newProject
 // File that contain the db.json data
 
-$ deployserver heroku-fakeserver newProject
+$ sirdeploy heroku-fakeserver newProject
 // Last Command that Do Everything for you
 ```
 Note: add `--save` if you are using npm < 5.0.0
@@ -47,7 +47,7 @@ Note: add `--save` if you are using npm < 5.0.0
 
 Bore Create FakeBackend for React App, or any other Framework Try this Package Once.
 
-## Why deployServer Package?
+## Why sirdeploy Package?
 
 Programming is all About simplifying and Automating Stuff<br>
 
@@ -62,7 +62,7 @@ Use this Package and (getAwayFromThePain) create BoilerPlate
 ### Please Contribute Models and Controllers
 
 #### Become a [Open Source Contributer](https://github.com/shaantanu9/DeployHerokuServer)
-We **DeployServer** wants to help Each and Every Programmer Writing real Logical code, without **wasting time** this simple thing.
+We **sirdeploy** wants to help Each and Every Programmer Writing real Logical code, without **wasting time** this simple thing.
 
 So We are Here With this Package to help you to write real Logical code, without wasting time.
 
