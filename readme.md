@@ -25,23 +25,27 @@ Steps to Follow:
 
 ## Go Through the Already Build Templates
 
-**configure-tailwind** is released under the [MIT license](https://github.com/shaantanu9/configure-tailwind/blob/main/LICENSE) & supports modern environments.<br>
-#### Please Star the [Repo](https://github.com/shaantanu9/configure-tailwind) on GitHub and Share with Other Fellow Developers
+**sirdeploy** is released under the [MIT license](https://github.com/shaantanu9/DeployHerokuServer/blob/main/LICENSE) & supports modern environments.<br>
+#### Please Star the [Repo](https://github.com/shaantanu9/DeployHerokuServer) on GitHub and Share with Other Fellow Developers
 
 ## Installation
 
 Using npm:
 ```shell
-$ npm i -g configure-tailwind 
+$ npm i --location=global deployserver
 // it is CLI Base so need to install Globally
 
-$ npm i configure-tailwind
+$ mkdir newProject
+// File that contain the db.json data
+
+$ deployserver heroku-fakeserver newProject
+// Last Command that Do Everything for you
 ```
 Note: add `--save` if you are using npm < 5.0.0
 
 
 
-Bore Configuring Tailwind for React App, or any other Framework Try this Package Once.
+Bore Create FakeBackend for React App, or any other Framework Try this Package Once.
 
 ## Why deployServer Package?
 

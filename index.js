@@ -33,4 +33,18 @@ program
     }
   });
 
+  program
+  .command("update-heroku-fakeserver")
+  .argument("<string>", "File name to create the server")
+  .description(`Create Fake Server and Deploy it on Heroku`)
+  .action(function () {
+    if (this.args.length !== 0) {
+      const updateFakeServer = require("./commands/updatefakeServer.command");
+      updateFakeServer(this.args);
+    } else {
+      console.log("Please Provide the Project Name");
+      shell.exit();
+    }
+  });
+
 program.parse();

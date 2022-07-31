@@ -5,6 +5,7 @@ const details = require("./details.json");
 // console.log(details.reactApp.appJsData.join("\n"))
 
 const herokuDeploy = () => {
+  shell.exec("git init");
   shell.exec("git add .")
   shell.exec("git commit -m 'deploy'")
   shell.exec("heroku create")
@@ -17,11 +18,22 @@ const createIndexFile = () => {
   fs.writeFileSync("index.js", indexFileData);
   herokuDeploy();
 }
+
+// function to edit package json file
+const editPackageJson = () => {
+  const packageJson = require(shell.pwd()+"/package.json");
+  packageJson.scripts.start = "node index.js";
+  packageJson.scripts.deploy = "heroku create";
+  packageJson.scripts.updatedeploy = "git push heroku master";
+  fs.writeFileSync("package.json", JSON.stringify(packageJson));
+}
+
 const configureJsonServer = () => {
   shell.exec("npm init -y");
 
   shell.exec("npm install json-server");
   shell.exec("npm i --location=global heroku");
+  editPackageJson();
   createIndexFile()
 };
 
@@ -42,3 +54,8 @@ const createFakeServer = (name) => {
 };
 
 module.exports = createFakeServer;
+
+
+
+
+
