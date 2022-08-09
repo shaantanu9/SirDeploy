@@ -1,6 +1,6 @@
 {
   "name": "sirdeploy",
-  "version": "1.0.5",
+  "version": "1.0.10",
   "description": "Easily Create Any Server and deploy it on Heroku",
   "main": "index.js",
   "scripts": {
@@ -41,5 +41,8 @@
     "@tos_/cli-welcome": "^1.0.2",
     "commander": "^9.0.0",
     "shelljs": "^0.8.5"
+  },
+  "devDependencies": {
+    "gh-pages": "^4.0.0"
   }
 }

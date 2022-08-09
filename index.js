@@ -32,8 +32,21 @@ program
       shell.exit();
     }
   });
+program
+  .command("reactapp")
+  .argument("<string>", "File name to create the server")
+  .description(`Deploy React App on Github Pages`)
+  .action(function () {
+    if (this.args.length !== 0) {
+      const reactAppOnGithub = require("./commands/reactapp.command");
+      reactAppOnGithub(this.args);
+    } else {
+      console.log("Please Provide the Project Name");
+      shell.exit();
+    }
+  });
 
-  program
+program
   .command("update-heroku-fakeserver")
   .argument("<string>", "File name to create the server")
   .description(`Create Fake Server and Deploy it on Heroku`)
