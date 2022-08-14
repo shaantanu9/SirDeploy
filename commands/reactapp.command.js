@@ -26,7 +26,7 @@ const editPackageJson = (homePageURL, repoName, username) => {
   packageJson.scripts.deploy = "gh-pages -d build";
   fs.writeFileSync(
     "package.json",
-    JSON.stringify(packageJson, "\r\n"),
+    JSON.stringify(packageJson, null,2),
     "utf8",
     null,
     4
@@ -46,6 +46,7 @@ const findGithubRepo = () => {
     silent: true,
   }).stdout;
   // split the git url and store it in an array and get the link from the array
+  if(!gitUrl.length){console.log("No remote repository found\nCreate a remote repository and try again");shell.exit()}
   const gitUrlArray = gitUrl.split("\n");
   const [username, repoName] = gitUrlArray[0]
     .split(" ")[0]

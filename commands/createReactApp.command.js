@@ -8,7 +8,7 @@ const herokuDeploy = () => {
   shell.exec("git init");
   shell.exec("git add .");
   shell.exec("git commit -m 'deploing React App'");
-  shell.exec("heroku create");
+  shell.exec("npx heroku create");
   shell.exec("git push heroku master");
 };
 
@@ -29,7 +29,7 @@ const editPackageJson = () => {
 };
 
 const installingHeroku = () => {
-  shell.exec("npm i --location=global heroku");
+  // shell.exec("npm i --location=global heroku");
   editPackageJson();
   herokuDeploy();
 };

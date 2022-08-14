@@ -72,6 +72,19 @@ program
     }
   });
 
+  program
+  .command("gitignore")
+  .argument("<string>", "Name the language for which you want to create the gitignore")
+  .description(`Single Command to Create the Gitignore`)
+  .action(function () {
+    if (this.args.length !== 0) {
+      const createGitignore = require("sirdeploy/commands/gitignore.command.js");
+      createGitignore(this.args);
+    } else {
+      console.log("Please Provide the Commit Message");
+      shell.exit();
+    }
+  });
 program
   .command("update-heroku-fakeserver")
   .argument("<string>", "File name to create the server")
