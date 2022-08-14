@@ -1,0 +1,31 @@
+# Created by Shantanu Bombatkar SirDeploy Package
+# It helps deploy fakeserver ReactApp on Heroku and Github Pages
+#  Hope it helps || Thanks for Using SirDeploy Package
+
+### fastlane ###
+# fastlane - A streamlined workflow tool for Cocoa deployment
+#
+# It is recommended to not store the screenshots in the git repo. Instead, use fastlane to re-generate the
+# screenshots whenever they are needed.
+# For more information about the recommended setup visit:
+# https://docs.fastlane.tools/best-practices/source-control/#source-control
+
+# fastlane specific
+fastlane/report.xml
+
+# deliver temporary files
+fastlane/Preview.html
+
+# snapshot generated screenshots
+fastlane/screenshots/**/*.png
+fastlane/screenshots/screenshots.html
+
+# scan temporary files
+fastlane/test_output
+
+# Fastlane.swift runner binary
+fastlane/FastlaneRunner
+
+# Star the Repo https://github.com/shaantanu9/SirDeploy
+# https://www.linkedin.com/in/shantanu-bombatkar/ 
+# End of File

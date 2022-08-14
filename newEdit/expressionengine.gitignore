@@ -1,0 +1,28 @@
+# Created by Shantanu Bombatkar SirDeploy Package
+# It helps deploy fakeserver ReactApp on Heroku and Github Pages
+#  Hope it helps || Thanks for Using SirDeploy Package
+
+### ExpressionEngine ###
+.DS_Store
+
+# Images
+images/avatars/
+images/captchas/
+images/smileys/
+images/member_photos/
+images/signature_attachments/
+images/pm_attachments/
+
+# For security do not publish the following files
+system/expressionengine/config/database.php
+system/expressionengine/config/config.php
+
+# Caches
+sized/
+thumbs/
+_thumbs/
+*/expressionengine/cache/*
+
+# Star the Repo https://github.com/shaantanu9/SirDeploy
+# https://www.linkedin.com/in/shantanu-bombatkar/ 
+# End of File

@@ -1,0 +1,25 @@
+# Created by Shantanu Bombatkar SirDeploy Package
+# It helps deploy fakeserver ReactApp on Heroku and Github Pages
+#  Hope it helps || Thanks for Using SirDeploy Package
+
+### Dframe ###
+# Ignore files that are auto-generated
+app/View/templates_c/*
+app/View/cache/*
+app/View/logs/*
+web/assets/*
+vendor
+
+# Force include
+!app/View/templates_c/.gitkeep
+!app/View/cache/.gitkeep
+!app/View/logs/.gitkeep
+!web/assets/.gitkeep
+
+# Ignore IDE
+.project
+.vscode/
+
+# Star the Repo https://github.com/shaantanu9/SirDeploy
+# https://www.linkedin.com/in/shantanu-bombatkar/ 
+# End of File

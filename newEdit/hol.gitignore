@@ -1,0 +1,20 @@
+# Created by Shantanu Bombatkar SirDeploy Package
+# It helps deploy fakeserver ReactApp on Heroku and Github Pages
+#  Hope it helps || Thanks for Using SirDeploy Package
+
+### HOL ###
+*Script
+
+# Holmake generated files
+*Theory.sig
+*Theory.sml
+*.uo
+*.ui
+
+# Holmake auxiliary files
+.hollogs
+.HOLMK
+
+# Star the Repo https://github.com/shaantanu9/SirDeploy
+# https://www.linkedin.com/in/shantanu-bombatkar/ 
+# End of File

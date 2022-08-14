@@ -1,0 +1,15 @@
+# Created by Shantanu Bombatkar SirDeploy Package
+# It helps deploy fakeserver ReactApp on Heroku and Github Pages
+#  Hope it helps || Thanks for Using SirDeploy Package
+
+### CocoaPods ###
+## CocoaPods GitIgnore Template
+
+# CocoaPods - Only use to conserve bandwidth / Save time on Pushing
+#           - Also handy if you have a large number of dependant pods
+#           - AS PER https://guides.cocoapods.org/using/using-cocoapods.html NEVER IGNORE THE LOCK FILE
+Pods/
+
+# Star the Repo https://github.com/shaantanu9/SirDeploy
+# https://www.linkedin.com/in/shantanu-bombatkar/ 
+# End of File

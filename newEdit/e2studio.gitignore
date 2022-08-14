@@ -1,0 +1,20 @@
+# Created by Shantanu Bombatkar SirDeploy Package
+# It helps deploy fakeserver ReactApp on Heroku and Github Pages
+#  Hope it helps || Thanks for Using SirDeploy Package
+
+### e2studio ###
+# Modified gitignore for Renesas E2Studio (Built on eclipse): maintain all data needed by eclipse to setting up a workspace.
+
+.history
+*.tmp
+*.obj
+*.log
+history.index
+
+# E2 Studio Specific
+HardwareDebug/src
+
+
+# Star the Repo https://github.com/shaantanu9/SirDeploy
+# https://www.linkedin.com/in/shantanu-bombatkar/ 
+# End of File

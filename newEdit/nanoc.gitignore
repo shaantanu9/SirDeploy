@@ -1,0 +1,19 @@
+# Created by Shantanu Bombatkar SirDeploy Package
+# It helps deploy fakeserver ReactApp on Heroku and Github Pages
+#  Hope it helps || Thanks for Using SirDeploy Package
+
+### Nanoc ###
+# For projects using Nanoc (http://nanoc.ws/)
+
+# Default location for output (needs to match output_dir's value found in nanoc.yaml)
+output/
+
+# Temporary file directory
+tmp/nanoc/
+
+# Crash Log
+crash.log
+
+# Star the Repo https://github.com/shaantanu9/SirDeploy
+# https://www.linkedin.com/in/shantanu-bombatkar/ 
+# End of File

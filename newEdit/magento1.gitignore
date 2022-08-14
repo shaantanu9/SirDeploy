@@ -1,0 +1,54 @@
+# Created by Shantanu Bombatkar SirDeploy Package
+# It helps deploy fakeserver ReactApp on Heroku and Github Pages
+#  Hope it helps || Thanks for Using SirDeploy Package
+
+### Magento1 ###
+# gitignore template for Magento v1 projects
+#
+# It is recommended that you use `Magento.gitignore` as this is the latest version
+
+/PATCH_*.sh
+
+/app/etc/local.xml
+
+/media/*
+!/media/.htaccess
+
+!/media/customer
+/media/customer/*
+!/media/customer/.htaccess
+
+!/media/dhl
+/media/dhl/*
+!/media/dhl/logo.jpg
+
+!/media/downloadable
+/media/downloadable/*
+!/media/downloadable/.htaccess
+
+!/media/xmlconnect
+/media/xmlconnect/*
+
+!/media/xmlconnect/custom
+/media/xmlconnect/custom/*
+!/media/xmlconnect/custom/ok.gif
+
+!/media/xmlconnect/original
+/media/xmlconnect/original/*
+!/media/xmlconnect/original/ok.gif
+
+!/media/xmlconnect/system
+/media/xmlconnect/system/*
+!/media/xmlconnect/system/ok.gif
+
+/var/*
+!/var/.htaccess
+
+!/var/package
+/var/package/*
+!/var/package/*.xml
+
+
+# Star the Repo https://github.com/shaantanu9/SirDeploy
+# https://www.linkedin.com/in/shantanu-bombatkar/ 
+# End of File

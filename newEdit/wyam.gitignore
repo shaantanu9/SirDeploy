@@ -1,0 +1,14 @@
+# Created by Shantanu Bombatkar SirDeploy Package
+# It helps deploy fakeserver ReactApp on Heroku and Github Pages
+#  Hope it helps || Thanks for Using SirDeploy Package
+
+### Wyam ###
+# Wyam Ignore - Based on https://wyam.io/docs/advanced/what_to_exclude_from_source_control
+output/*
+config.wyam.dll
+config.wyam.hash
+*packages.xml
+
+# Star the Repo https://github.com/shaantanu9/SirDeploy
+# https://www.linkedin.com/in/shantanu-bombatkar/ 
+# End of File

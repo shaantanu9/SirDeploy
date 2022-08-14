@@ -1,0 +1,24 @@
+# Created by Shantanu Bombatkar SirDeploy Package
+# It helps deploy fakeserver ReactApp on Heroku and Github Pages
+#  Hope it helps || Thanks for Using SirDeploy Package
+
+### PVS ###
+# Ignore binary files
+pvsbin/
+bin/
+lib/
+*.bin
+.pvscontext
+# Ignore orphaned and old proofs
+orphaned-proofs.prf
+*.prf~
+# Ignore compiled Lisp files
+*fasl
+# Ignore PVS dump files
+*.dmp
+# Ignore PVS log files
+*.log
+
+# Star the Repo https://github.com/shaantanu9/SirDeploy
+# https://www.linkedin.com/in/shantanu-bombatkar/ 
+# End of File

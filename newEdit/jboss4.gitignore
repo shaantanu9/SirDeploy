@@ -1,0 +1,28 @@
+# Created by Shantanu Bombatkar SirDeploy Package
+# It helps deploy fakeserver ReactApp on Heroku and Github Pages
+#  Hope it helps || Thanks for Using SirDeploy Package
+
+### JBoss4 ###
+# gitignore for JBoss v4 projects
+
+/server/all/data
+/server/all/log
+/server/all/tmp
+/server/all/work
+/server/default/data
+/server/default/log
+/server/default/tmp
+/server/default/work
+/server/minimal/data
+/server/minimal/log
+/server/minimal/tmp
+/server/minimal/work
+
+# Note:
+# there may be other directories that contain *.xml.failed or *.war.failed files
+/server/default/deploy/*.xml.failed
+/server/default/deploy/*.war.failed
+
+# Star the Repo https://github.com/shaantanu9/SirDeploy
+# https://www.linkedin.com/in/shantanu-bombatkar/ 
+# End of File

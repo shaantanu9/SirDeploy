@@ -1,0 +1,18 @@
+# Created by Shantanu Bombatkar SirDeploy Package
+# It helps deploy fakeserver ReactApp on Heroku and Github Pages
+#  Hope it helps || Thanks for Using SirDeploy Package
+
+### Waf ###
+# For projects that use the Waf build system: https://waf.io/
+# Dot-hidden on Unix-like systems
+.waf-*-*/
+.waf3-*-*/
+# Hidden directory on Windows (no dot)
+waf-*-*/
+waf3-*-*/
+# Lockfile
+.lock-waf_*_build
+
+# Star the Repo https://github.com/shaantanu9/SirDeploy
+# https://www.linkedin.com/in/shantanu-bombatkar/ 
+# End of File

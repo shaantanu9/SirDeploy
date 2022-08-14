@@ -1,0 +1,14 @@
+# Created by Shantanu Bombatkar SirDeploy Package
+# It helps deploy fakeserver ReactApp on Heroku and Github Pages
+#  Hope it helps || Thanks for Using SirDeploy Package
+
+### yalc ###
+# yalc
+# https://www.npmjs.com/package/yalc/v/1.0.0-pre.17#keep-it-out-of-git
+
+.yalc
+yalc.lock
+
+# Star the Repo https://github.com/shaantanu9/SirDeploy
+# https://www.linkedin.com/in/shantanu-bombatkar/ 
+# End of File

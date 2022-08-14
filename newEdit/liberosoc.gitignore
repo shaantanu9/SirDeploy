@@ -1,0 +1,35 @@
+# Created by Shantanu Bombatkar SirDeploy Package
+# It helps deploy fakeserver ReactApp on Heroku and Github Pages
+#  Hope it helps || Thanks for Using SirDeploy Package
+
+### LiberoSOC ###
+#Microsemi Libero SOC v11.5
+
+#ignore miscellaneous files in the following directories
+simulation/*
+package/*
+component/*
+tooldata/*
+viewdraw/*
+
+#auto-generated constraint log files
+constraint/*
+!constraint/**.sdc
+!constraint/**.pdc
+
+#synthesis log files
+synthesis/*
+
+#smartgen log files
+smartgen/*/*
+smartgen/smartgen.aws
+!smartgen/*/*.gen
+!smartgen/*/*.vhd
+!smartgen/*/*.v
+
+#designer files
+designer/*/*
+
+# Star the Repo https://github.com/shaantanu9/SirDeploy
+# https://www.linkedin.com/in/shantanu-bombatkar/ 
+# End of File

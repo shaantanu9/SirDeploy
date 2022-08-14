@@ -1,0 +1,19 @@
+# Created by Shantanu Bombatkar SirDeploy Package
+# It helps deploy fakeserver ReactApp on Heroku and Github Pages
+#  Hope it helps || Thanks for Using SirDeploy Package
+
+### Pulumi+stacks ###
+# Ignore temp build directory for Pulumi
+# Info: https://www.pulumi.com/docs/
+
+.pulumi/
+
+### Pulumi+stacks Patch ###
+# Pulumi stacks configuration files
+# See https://www.pulumi.com/docs/intro/concepts/project/#stack-settings-file
+
+Pulumi.*.yaml
+
+# Star the Repo https://github.com/shaantanu9/SirDeploy
+# https://www.linkedin.com/in/shantanu-bombatkar/ 
+# End of File

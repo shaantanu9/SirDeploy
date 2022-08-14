@@ -1,6 +1,6 @@
 {
   "name": "sirdeploy",
-  "version": "1.0.10",
+  "version": "1.0.12",
   "description": "Easily Create Any Server and deploy it on Heroku",
   "main": "index.js",
   "scripts": {

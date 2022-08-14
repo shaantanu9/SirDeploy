@@ -1,0 +1,23 @@
+# Created by Shantanu Bombatkar SirDeploy Package
+# It helps deploy fakeserver ReactApp on Heroku and Github Pages
+#  Hope it helps || Thanks for Using SirDeploy Package
+
+### WebMethods ###
+**/IntegrationServer/datastore/
+**/IntegrationServer/db/
+**/IntegrationServer/DocumentStore/
+**/IntegrationServer/lib/
+**/IntegrationServer/logs/
+**/IntegrationServer/replicate/
+**/IntegrationServer/sdk/
+**/IntegrationServer/support/
+**/IntegrationServer/update/
+**/IntegrationServer/userFtpRoot/
+**/IntegrationServer/web/
+**/IntegrationServer/WmRepository4/
+**/IntegrationServer/XAStore/
+**/IntegrationServer/packages/Wm*/
+
+# Star the Repo https://github.com/shaantanu9/SirDeploy
+# https://www.linkedin.com/in/shantanu-bombatkar/ 
+# End of File

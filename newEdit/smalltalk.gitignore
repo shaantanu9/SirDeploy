@@ -1,0 +1,40 @@
+# Created by Shantanu Bombatkar SirDeploy Package
+# It helps deploy fakeserver ReactApp on Heroku and Github Pages
+#  Hope it helps || Thanks for Using SirDeploy Package
+
+### Smalltalk ###
+# changes file
+*.changes
+*.chg
+
+# system image
+*.image
+*.img7
+*.img
+
+# Pharo Smalltalk Debug log file
+PharoDebug.log
+
+# Squeak Smalltalk Debug log file
+SqueakDebug.log
+
+# Dolphin Smalltalk source file
+*.sml
+
+# Dolphin Smalltalk error file
+*.errors
+
+# Monticello package cache
+/package-cache
+
+# playground cache
+/play-cache
+/play-stash
+
+# Metacello-github cache
+/github-cache
+github-*.zip
+
+# Star the Repo https://github.com/shaantanu9/SirDeploy
+# https://www.linkedin.com/in/shantanu-bombatkar/ 
+# End of File

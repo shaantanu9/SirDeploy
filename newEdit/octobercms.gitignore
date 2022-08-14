@@ -1,0 +1,28 @@
+# Created by Shantanu Bombatkar SirDeploy Package
+# It helps deploy fakeserver ReactApp on Heroku and Github Pages
+#  Hope it helps || Thanks for Using SirDeploy Package
+
+### OctoberCms ###
+/bootstrap/compiled.php
+/vendor
+composer.phar
+.DS_Store
+.idea
+.env
+.env.*.php
+.env.php
+php_errors.log
+nginx-error.log
+nginx-access.log
+nginx-ssl.access.log
+nginx-ssl.error.log
+php-errors.log
+sftp-config.json
+selenium.php
+
+# for netbeans compiler
+nbproject
+
+# Star the Repo https://github.com/shaantanu9/SirDeploy
+# https://www.linkedin.com/in/shantanu-bombatkar/ 
+# End of File

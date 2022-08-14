@@ -1,0 +1,65 @@
+# Created by Shantanu Bombatkar SirDeploy Package
+# It helps deploy fakeserver ReactApp on Heroku and Github Pages
+#  Hope it helps || Thanks for Using SirDeploy Package
+
+### SalesforceDX ###
+# GitIgnore for Salesforce Projects
+# Project Settings and MetaData
+.project
+.settings/
+.metadata
+build.properties
+config
+
+# Apex Log as optional
+apex-scripts/log
+
+# Eclipse specific
+salesforce.schema
+Referenced Packages
+bin/
+tmp/
+config/
+*.tmp
+*.bak
+local.properties
+.settings
+.loadpath
+.classpath
+*.cache
+
+# Illuminated Cloud (IntelliJ IDEA)
+IlluminatedCloud
+out
+.idea
+*.iml
+
+# Mavensmate
+*.sublime-project
+*.sublime-settings
+*.sublime-workspace
+mm.log
+
+# Haoide SublimeText
+.config
+.deploy
+.history
+
+# OSX-specific exclusions
+.[dD][sS]_[sS]tore
+
+# The Welkin Suite specific
+**/.localHistory
+
+*.sfuo
+
+TestCache.xml
+
+TestsResultsCache.xml
+
+### SalesforceDX Patch ###
+.sfdx
+
+# Star the Repo https://github.com/shaantanu9/SirDeploy
+# https://www.linkedin.com/in/shantanu-bombatkar/ 
+# End of File

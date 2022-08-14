@@ -1,0 +1,17 @@
+# Created by Shantanu Bombatkar SirDeploy Package
+# It helps deploy fakeserver ReactApp on Heroku and Github Pages
+#  Hope it helps || Thanks for Using SirDeploy Package
+
+### greenfoot ###
+# Greenfoot: A BlueJ-based game IDE for programming beginners. http://bluej.org
+
+# Editor preferences for a class etc, see http://lists.bluej.org/pipermail/bluej-discuss/2003-May/002351.html
+*.ctxt
+
+# Project file. Continously checking it in destroys the project ocasionally (while merging etc.) because it changes completely at every compile. Instead, make a copy of the file after the first runtime and name it e.g. `project.example.greenfoot`. See http://bugs.bluej.org/greenfoot/ticket/409
+
+project.greenfoot
+
+# Star the Repo https://github.com/shaantanu9/SirDeploy
+# https://www.linkedin.com/in/shantanu-bombatkar/ 
+# End of File

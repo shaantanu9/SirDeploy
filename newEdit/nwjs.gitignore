@@ -1,0 +1,38 @@
+# Created by Shantanu Bombatkar SirDeploy Package
+# It helps deploy fakeserver ReactApp on Heroku and Github Pages
+#  Hope it helps || Thanks for Using SirDeploy Package
+
+### NWjs ###
+# gitignore template for NW.js projects
+# website: https://nwjs.io/
+
+# Seen in standard and sdk versions
+credits.html
+locales/
+libEGL.dll
+libGLEv2.dll
+node.dll
+nw.dll
+nw.exe
+natives_blob.bin
+nw_100_percent.pak
+nw_200_percent.pak
+nw_elf.dll
+snapshot_blob.bin
+resources.pak
+
+# Seen only in standard
+d3dcompiler_47.dll
+ffmpeg.dll
+icudtl.dat
+
+# Seen only in sdk
+pnacl/
+chromedriver.exe
+nacl_irt_x86_64.nexe
+nwjc.exe
+payload.exe
+
+# Star the Repo https://github.com/shaantanu9/SirDeploy
+# https://www.linkedin.com/in/shantanu-bombatkar/ 
+# End of File

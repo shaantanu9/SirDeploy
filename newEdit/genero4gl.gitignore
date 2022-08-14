@@ -1,0 +1,39 @@
+# Created by Shantanu Bombatkar SirDeploy Package
+# It helps deploy fakeserver ReactApp on Heroku and Github Pages
+#  Hope it helps || Thanks for Using SirDeploy Package
+
+### Genero4GL ###
+# fglcomp compiled outputs
+# http://www.4js.com/online_documentation/fjs-fgl-manual-html/?path=fjs-fgl-manual#c_fgl_FileExtensions_001.html
+*.42m
+*.42f
+*.42s
+*.42r
+*.42x
+*.iem
+
+# Workspace view state (undocumented)
+4pwvs
+
+# Workspace database (undocumented)
+4pwdb
+
+# fglpc and fglform compiled outputs
+# http://publib.boulder.ibm.com/epubs/pdf/ct1vbna.pdf
+*.4go
+*.4gi
+*.4ge
+*.frm
+*.err
+*.4bl
+*.4bo
+*.ec
+*.c
+*.erc
+*.4ec
+*.pbr
+*.fbm
+
+# Star the Repo https://github.com/shaantanu9/SirDeploy
+# https://www.linkedin.com/in/shantanu-bombatkar/ 
+# End of File

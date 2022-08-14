@@ -1,0 +1,25 @@
+# Created by Shantanu Bombatkar SirDeploy Package
+# It helps deploy fakeserver ReactApp on Heroku and Github Pages
+#  Hope it helps || Thanks for Using SirDeploy Package
+
+### ApacheHadoop ###
+*.iml
+*.ipr
+*.iws
+*.orig
+*.rej
+.idea
+.svn
+.classpath
+.project
+.settings
+target
+hadoop-common-project/hadoop-kms/downloads/
+hadoop-hdfs-project/hadoop-hdfs/downloads
+hadoop-hdfs-project/hadoop-hdfs-httpfs/downloads
+hadoop-common-project/hadoop-common/src/test/resources/contract-test-options.xml
+hadoop-tools/hadoop-openstack/src/test/resources/contract-test-options.xml
+
+# Star the Repo https://github.com/shaantanu9/SirDeploy
+# https://www.linkedin.com/in/shantanu-bombatkar/ 
+# End of File

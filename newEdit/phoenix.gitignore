@@ -1,0 +1,31 @@
+# Created by Shantanu Bombatkar SirDeploy Package
+# It helps deploy fakeserver ReactApp on Heroku and Github Pages
+#  Hope it helps || Thanks for Using SirDeploy Package
+
+### Phoenix ###
+# gitignore template for Phoenix projects
+# website: http://www.phoenixframework.org/
+#
+# Recommended template: Elixir.gitignore
+
+# Temporary files
+/tmp
+
+# Static artifacts
+/node_modules
+/assets/node_modules
+
+# Since we are building assets from web/static,
+# we ignore priv/static. You may want to comment
+# this depending on your deployment strategy.
+/priv/static/
+
+# Installer-related files
+/installer/_build
+/installer/tmp
+/installer/doc
+/installer/deps
+
+# Star the Repo https://github.com/shaantanu9/SirDeploy
+# https://www.linkedin.com/in/shantanu-bombatkar/ 
+# End of File

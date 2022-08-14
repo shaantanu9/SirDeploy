@@ -1,0 +1,23 @@
+# Created by Shantanu Bombatkar SirDeploy Package
+# It helps deploy fakeserver ReactApp on Heroku and Github Pages
+#  Hope it helps || Thanks for Using SirDeploy Package
+
+### Clean ###
+# Binaries
+*.exe
+*.out
+
+# Project files
+*.prj
+
+# Directory used to store object files, abc files and assembly files
+Clean System Files/
+
+# iTasks environment extra data
+*-data/
+*-www/
+*-sapl/
+
+# Star the Repo https://github.com/shaantanu9/SirDeploy
+# https://www.linkedin.com/in/shantanu-bombatkar/ 
+# End of File

@@ -1,0 +1,17 @@
+# Created by Shantanu Bombatkar SirDeploy Package
+# It helps deploy fakeserver ReactApp on Heroku and Github Pages
+#  Hope it helps || Thanks for Using SirDeploy Package
+
+### Scrivener ###
+*/Files/binder.autosave
+*/Files/binder.backup
+*/Files/search.indexes
+*/Files/user.lock
+*/Files/Docs/docs.checksum
+*/Files/Data/docs.checksum
+*/QuickLook/
+*/Settings/ui.plist
+
+# Star the Repo https://github.com/shaantanu9/SirDeploy
+# https://www.linkedin.com/in/shantanu-bombatkar/ 
+# End of File

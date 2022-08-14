@@ -1,0 +1,31 @@
+# Created by Shantanu Bombatkar SirDeploy Package
+# It helps deploy fakeserver ReactApp on Heroku and Github Pages
+#  Hope it helps || Thanks for Using SirDeploy Package
+
+### OxidEshop ###
+/vendor
+
+!/source
+/source/*
+/source/tmp
+
+!/source/Application
+/source/Application/translations
+/source/Application/views/admin
+/source/Application/views/azure
+/source/Application/views/flow
+
+!/source/modules
+/source/modules/*
+
+!/source/out
+/source/out/admin
+/source/out/azure
+/source/out/downloads
+/source/out/flow
+/source/out/media
+/source/out/pictures
+
+# Star the Repo https://github.com/shaantanu9/SirDeploy
+# https://www.linkedin.com/in/shantanu-bombatkar/ 
+# End of File

@@ -1,0 +1,32 @@
+# Created by Shantanu Bombatkar SirDeploy Package
+# It helps deploy fakeserver ReactApp on Heroku and Github Pages
+#  Hope it helps || Thanks for Using SirDeploy Package
+
+### Jigsaw ###
+# Jigsaw Static Site Generator
+
+# Ignore build folder
+/build_local/
+/build_staging/
+/build_production/
+
+# Ignore node dependencies resolved by npm/yarn
+/node_modules/
+
+# Ignore php dependecies resolved by composer
+/vendor/
+
+# Optionally ignore lock files
+# composer.lock
+# yarn.lock
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Star the Repo https://github.com/shaantanu9/SirDeploy
+# https://www.linkedin.com/in/shantanu-bombatkar/ 
+# End of File

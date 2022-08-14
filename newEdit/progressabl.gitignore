@@ -1,0 +1,37 @@
+# Created by Shantanu Bombatkar SirDeploy Package
+# It helps deploy fakeserver ReactApp on Heroku and Github Pages
+#  Hope it helps || Thanks for Using SirDeploy Package
+
+### ProgressABL ###
+# Developer Studio
+/.dbconnection
+/.project
+/.propath
+/debugger.pref
+/protrace*
+*.r
+*.pl
+
+# DataDigger
+DataDigger/Cache
+DataDigger/backup
+DataDigger/DataDigger-*.ini
+DataDigger/DataDigger*.log
+
+# General folders
+/old/
+/debug/
+
+# General files
+.gitignore
+*.tmp
+*.bak
+*.bck
+*.old
+*- Copy.*
+*- Copy (*).*
+*.log
+
+# Star the Repo https://github.com/shaantanu9/SirDeploy
+# https://www.linkedin.com/in/shantanu-bombatkar/ 
+# End of File

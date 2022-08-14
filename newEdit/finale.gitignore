@@ -1,0 +1,22 @@
+# Created by Shantanu Bombatkar SirDeploy Package
+# It helps deploy fakeserver ReactApp on Heroku and Github Pages
+#  Hope it helps || Thanks for Using SirDeploy Package
+
+### Finale ###
+*.bak
+*.db
+*.avi
+*.pdf
+*.ps
+*.mid
+*.midi
+*.mp3
+*.aif
+*.wav
+# Some versions of Finale have a bug and randomly save extra copies of
+# the music source as "<Filename> copy.mus"
+*copy.mus
+
+# Star the Repo https://github.com/shaantanu9/SirDeploy
+# https://www.linkedin.com/in/shantanu-bombatkar/ 
+# End of File

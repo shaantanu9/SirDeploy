@@ -1,0 +1,40 @@
+# Created by Shantanu Bombatkar SirDeploy Package
+# It helps deploy fakeserver ReactApp on Heroku and Github Pages
+#  Hope it helps || Thanks for Using SirDeploy Package
+
+### AdventureGameStudio ###
+# Built things
+_Debug/
+Compiled/
+
+# AudioCache can be rebuilt from sources
+AudioCache/
+
+# Lockfile
+_OpenInEditor.lock
+
+# User settings
+Game.agf.user
+*.crm.user
+
+# Backups
+Game.agf.bak
+backup_acsprset.spr
+
+# Memory dumps
+*.dmp
+
+# Temporary files
+# temporarily created during sprite or room background compression
+~aclzw.tmp
+# temporary, main game data, before getting packed into exe
+game28.dta
+# temporary build of the game before being moved to Compiled/ folder
+*.exe
+
+# Log files
+warnings.log
+
+# Star the Repo https://github.com/shaantanu9/SirDeploy
+# https://www.linkedin.com/in/shantanu-bombatkar/ 
+# End of File

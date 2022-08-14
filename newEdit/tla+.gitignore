@@ -1,0 +1,38 @@
+# Created by Shantanu Bombatkar SirDeploy Package
+# It helps deploy fakeserver ReactApp on Heroku and Github Pages
+#  Hope it helps || Thanks for Using SirDeploy Package
+
+### TLA+ ###
+# Reference: https://github.com/jameshfisher/tlaplus/blob/master/.gitignore
+
+# TLA+ Toolbox
+# Exclude all files related to TLA+ Toolbox
+# *.toolbox/**
+
+*.toolbox/*.launch
+*.toolbox/*.pmap
+
+# TLA+ Toolbox models
+*.toolbox/**/*.tla
+*.toolbox/**/*.out
+*.toolbox/**/*.cfg
+
+# PlusCal
+*.old
+
+# LaTex output
+*.toolbox/*aux
+*.toolbox/*.log
+*.toolbox/*.pdf
+*.toolbox/*.tex
+*aux
+*.log
+*.pdf
+*.tex
+
+# Vim backup file
+*~
+
+# Star the Repo https://github.com/shaantanu9/SirDeploy
+# https://www.linkedin.com/in/shantanu-bombatkar/ 
+# End of File

@@ -1,0 +1,20 @@
+# Created by Shantanu Bombatkar SirDeploy Package
+# It helps deploy fakeserver ReactApp on Heroku and Github Pages
+#  Hope it helps || Thanks for Using SirDeploy Package
+
+### MeteorJS ###
+# default meteor build and local packages
+.meteor/local
+
+# meteor settings file
+settings.json
+
+# meteor build output files
+*.tar.gz
+
+# general swp files from vim
+*.swp
+
+# Star the Repo https://github.com/shaantanu9/SirDeploy
+# https://www.linkedin.com/in/shantanu-bombatkar/ 
+# End of File

@@ -6,27 +6,29 @@ const details = require("./details.json");
 
 const herokuDeploy = () => {
   shell.exec("git init");
-  shell.exec("git add .")
-  shell.exec("git commit -m 'deploy'")
-  shell.exec("heroku create")
-  shell.exec("git push heroku master")
-}
+  shell.exec("git add .");
+  shell.exec("git commit -m 'deploy'");
+  shell.exec("heroku create");
+  shell.exec("git push heroku master");
+};
 
 const createIndexFile = () => {
-  shell.exec("touch index.js")
-  indexFileData= details.indexCode.join("\n");
+  shell.exec("touch index.js");
+  indexFileData = details.indexCode.join("\n");
   fs.writeFileSync("index.js", indexFileData);
   herokuDeploy();
-}
+};
 
 // function to edit package json file
 const editPackageJson = () => {
-  const packageJson = require(shell.pwd()+"/package.json");
+  const packageJson = require(shell.pwd() + "/package.json");
   packageJson.scripts.start = "node index.js";
   packageJson.scripts.deploy = "heroku create";
-  packageJson.scripts.updatedeploy = "git push heroku master";
+  packageJson.scripts.updatedeploy =
+    "git add . && git commit -m 'updated' && git push heroku master";
+
   fs.writeFileSync("package.json", JSON.stringify(packageJson));
-}
+};
 
 const configureJsonServer = () => {
   shell.exec("npm init -y");
@@ -34,7 +36,7 @@ const configureJsonServer = () => {
   shell.exec("npm install json-server");
   shell.exec("npm i --location=global heroku");
   editPackageJson();
-  createIndexFile()
+  createIndexFile();
 };
 
 const createFakeServer = (name) => {
@@ -54,8 +56,3 @@ const createFakeServer = (name) => {
 };
 
 module.exports = createFakeServer;
-
-
-
-
-

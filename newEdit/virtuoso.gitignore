@@ -1,0 +1,27 @@
+# Created by Shantanu Bombatkar SirDeploy Package
+# It helps deploy fakeserver ReactApp on Heroku and Github Pages
+#  Hope it helps || Thanks for Using SirDeploy Package
+
+### Virtuoso ###
+# Gitignore for Cadence Virtuoso
+################################################################
+
+# Log files
+*.log
+panic*.log.*
+
+# OpenAccess database lock files
+*.cdslck*
+
+# Run directories for layout vs. schematic and design rule check
+lvsRunDir/*
+drcRunDir/*
+
+# Abstract generation tool
+abstract.log*
+abstract.record*
+
+
+# Star the Repo https://github.com/shaantanu9/SirDeploy
+# https://www.linkedin.com/in/shantanu-bombatkar/ 
+# End of File

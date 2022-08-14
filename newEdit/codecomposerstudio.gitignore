@@ -1,0 +1,32 @@
+# Created by Shantanu Bombatkar SirDeploy Package
+# It helps deploy fakeserver ReactApp on Heroku and Github Pages
+#  Hope it helps || Thanks for Using SirDeploy Package
+
+### CodeComposerStudio ###
+
+tmp/
+*.tmp
+*.bak
+# Generated build artifact directories
+Debug/
+Release/
+Flash/
+RAM/
+# Generated build artifacts
+makefile
+*.map
+*.mk
+*.opt
+*.pp
+*.xml
+# Generated directories
+.config/
+.launches/
+# Generated file used to help display error messages in the problems view
+.xdchelp
+# Uniflash session files
+*.uniflashsession
+
+# Star the Repo https://github.com/shaantanu9/SirDeploy
+# https://www.linkedin.com/in/shantanu-bombatkar/ 
+# End of File

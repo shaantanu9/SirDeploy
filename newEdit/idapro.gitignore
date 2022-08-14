@@ -1,0 +1,23 @@
+# Created by Shantanu Bombatkar SirDeploy Package
+# It helps deploy fakeserver ReactApp on Heroku and Github Pages
+#  Hope it helps || Thanks for Using SirDeploy Package
+
+### IDAPro ###
+# gitginore template for IDA Pro
+# website: https://www.hex-rays.com/index.shtml
+
+# IDA Pro Runtime temporary file
+*.id0
+*.id1
+*.id2
+*.nam
+*.til
+
+# IDA Pro 64 packaged data
+# *.i64
+# IDA Pro 32 packaged data
+# *.idb
+
+# Star the Repo https://github.com/shaantanu9/SirDeploy
+# https://www.linkedin.com/in/shantanu-bombatkar/ 
+# End of File
