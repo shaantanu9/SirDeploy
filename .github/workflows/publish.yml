@@ -13,11 +13,12 @@ jobs:
       - name: checkout
         uses: actions/checkout@v2.4.2
       - name: node
-        uses: actions/setup-node@v1.4.2
+        uses: actions/setup-node@v1.4.4
         with:
           node-version: "12.x"
           registry-url: "https://registry.npmjs.org/"
       - name: publish
         run: npm publish --access public
+        run: echo "Published to npm"
         env:
           NODE_AUTH_TOKEN: ${{ github.NPM_AUTH_TOKEN }}
