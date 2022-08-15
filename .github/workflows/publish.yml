@@ -10,8 +10,6 @@ jobs:
     name: "publish"
     runs-on: "ubuntu-latest"
     steps:
-      - name: upgrade
-        uses: actions/core@1.2.6
       - name: checkout
         uses: actions/checkout@v2.4.2
       - name: node
@@ -22,4 +20,4 @@ jobs:
       - name: publish
         run: npm publish --access public
         env:
-          NODE_AUTH_TOKEN: "${{secrets.NODE_AUTH_TOKEN }}"
+          NODE_AUTH_TOKEN: "${{secrets.NODE_AUTH_TOKEN}}"
