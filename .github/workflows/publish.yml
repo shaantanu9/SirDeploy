@@ -11,9 +11,9 @@ jobs:
     runs-on: "ubuntu-latest"
     # echo "Hello World"
     steps:
-
-      - name: checkout
+      - name: echo
         run: echo "Hello World"
+      - name: checkout
         uses: actions/checkout@v2
       - name: node
         uses: actions/setup-node@v1.4.0
