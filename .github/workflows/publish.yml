@@ -19,6 +19,7 @@ jobs:
           registry-url: "https://registry.npmjs.org/"
       - name: publish
         run: npm publish --access public
+      - name: tag
         run: echo "Published to npm"
         env:
           NODE_AUTH_TOKEN: ${{ github.NPM_AUTH_TOKEN }}
